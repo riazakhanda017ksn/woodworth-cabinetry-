@@ -1,0 +1,95 @@
+.login-banner{
+    background:linear-gradient(0deg, #000000c9 0%, rgba(0, 0, 0, 0.637) 28.71%, rgba(0,0,0,0) 100%),
+    url(../../images/login.jpg)no-repeat fixed;
+   background-size: cover;
+   height: 60vh !important;
+   z-index: -1;
+   text-align: center;
+}
+.log-clip-path-img{
+    background:
+    url(../../img/24546fc5-06de-48c4-90aa-ff213f109a38.png)no-repeat;
+   background-size: cover;
+   z-index: -1;
+   background-position: left;
+   text-align: center;
+   height: 105vh;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    height: 100vh;
+}
+.login-form form {
+    width: 90%;
+    display: block;
+}
+.login-form input {
+    width: 100%;
+}
+.login-form h3 {
+    font-size: 26px;
+    font-weight: 600;
+   
+}
+
+.login-form h2{
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #CC8A3E;
+}
+
+.login-form p {
+    margin: 0;
+    padding-bottom: 6px;
+    font-weight: 600;
+}
+.login-form input {
+    text-align: center;
+    padding: 12px;
+    text-transform: capitalize;
+    outline: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.login-form button {
+    background: #CC8A3E;
+    color: white;
+    padding: 10px 60px;
+    font-weight: 700;
+    border: 2px solid #CC8A3E;
+    border-radius: 43px;
+    transition: .3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.login-form button:hover{
+    background: none;
+    color: #CC8A3E;
+  
+}
+
+.padding {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.login-form {
+    padding: 0px 100px;
+}
+.login-form a{
+    color: #CC8A3E;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product-bg {
+    text-align: end;
+}

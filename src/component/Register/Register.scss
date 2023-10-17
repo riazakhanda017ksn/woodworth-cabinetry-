@@ -1,0 +1,213 @@
+
+.register{
+    background:linear-gradient(0deg, #000000c9 0%, rgba(0, 0, 0, 0.637) 28.71%, rgba(0,0,0,0) 100%),
+ url(../../images/12344444555.jpg)no-repeat fixed;
+background-size: cover;
+z-index: -1;
+height: 100vh;
+
+}
+
+.input-flex select{
+    width: 97%;
+    padding: 14px;
+    border: 1px solid black;
+    outline: none;
+}
+
+input.width-for-input {
+    width: 97%;
+}
+
+.one-input p {
+    margin: 6px 0 !important
+    
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex-item p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact-btn.text-centers {
+    justify-content: start;
+    margin-top: 40px;
+}
+.text-for-dealers h2 {
+    font-size: 27px;
+}
+
+// 
+
+
+
+.form-section_heading:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #000104;
+    margin-right: 15px;
+}
+.form-section_heading:after {
+    background: none;
+    content: "";
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    margin-left: 15px;
+}
+
+.form-section_heading {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font: normal 16px "AvenirNextLTPro-DemiCn",sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 50px 0;
+    font-weight: 600;
+}
+
+.one-input p{
+    text-transform: uppercase;
+}
+
+.input-flex select {
+    width: 97%;
+    padding: 14px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight:600
+}
+
+.flex-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.flex-checkbox small {
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.need-align {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.or-submit-btn {
+    justify-content: flex-start !important;
+}
+
+.dearler-caaption h2 {
+    color: #CC8A3E;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+.dearler-caaption p {
+    font-weight: 500;
+    line-height: 26px;
+}
+.form-section h4 span {
+    font-size: 15px;
+    border: 2px solid #CC8A3E;
+    color: #CC8A3E;
+    padding: 12px 25px;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.first-input.new-classes {
+    text-align: left;
+}
+
+.first-input select {
+    width: 100%;
+    padding: 11px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background: rgba(128, 128, 128, 0.1019607843);
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 23px;
+}
+
+input.file-thin {
+    padding: 9px 14px;
+}
+.form-new.new-classes {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-new label {
+    position: relative;
+    right: -18px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.c-flex {
+    display: flex;
+    width: 100%;
+    margin: 9px 11px;
+    gap: 10px;
+    align-items: center;
+}
+
+.c-flex small {
+    font-weight: 500;
+}
+
+.first-input.new-classes.flex-ends {
+    padding: 60px 0;
+}
+
+.form-new label {
+    right: -11px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    top: 16px;
+}
+
+.submit-form button {
+    background: #CC8A3E;
+    color: white;
+    padding: 13px 40px;
+    font-weight: 600;
+    border: 2px solid #CC8A3E;
+    border-radius: 43px;
+    transition: 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+.submit-form button:hover{
+    background: none;
+    color: #CC8A3E;
+}

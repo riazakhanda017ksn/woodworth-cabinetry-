@@ -1,0 +1,163 @@
+.dealer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .half-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        background: #C8893E;
+        color: white;
+        padding: 0 50px !important;
+        width: 100%;
+    }
+
+    .half-column h2 {
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .half-column p {
+        font-size: 17px;
+        color: #ffffff;
+        line-height: 27px;
+        font-weight: 400;
+    }
+    .dealer-image img {
+        width: 700px;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        right: 120px;
+        bottom: 45px;
+    }
+
+    .dealer-image{
+        background: url(../../images/1jjjjj.jpg)no-repeat;
+        background-size: cover; width: 100%;
+        // margin-right: -33.33%;
+        // margin-top: -40px;
+        // position: relative;
+        // background-size: contain;
+        // background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 65vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    // .dealers {
+    //     transform: translate3d(-100px, -70.319px, 0px);
+    //     width: 121%;
+    //     margin-top: -70px;
+    // }
+    .styled {
+        margin-top: 20px;
+    }
+    
+
+    .sign-up-btn {
+        width: 100%;
+    }
+
+    .sign-up-btn button {
+        padding: 12px 37px;
+        border: 1px solid white;
+        background: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 18px;
+        &:hover{
+         background: white;
+         color: black;
+         transition: .3s ease-in-out;
+        }
+    }
+    
+    .half-column {
+        
+        padding: 100px ;
+    }
+
+    .kitchen {
+        transition: .3s ease-in-out;
+    }
+
+    .kitchen:hover{
+        transform: scaleX(1.1);
+    }
+
+
+    
+   
+.dream-kitchen{
+    background:linear-gradient(#8f7459c6,#8f7459c6),url(../../images/banners/banner.jpg)no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 330px;
+    height: 250px;
+    object-fit: cover;
+}
+.slick-slide {
+    margin: 0 27px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.swiper-slide.swiper-slide-next img {
+    height: 340px;
+}
+
+.swiper-slide.swiper-slide-next {
+    transform: scale(1.2);
+    margin: 0px 18px;
+}
+.swiper-slide.swiper-slide-active {
+    margin-top: 45px;
+    opacity: 0.4;
+}
+
+.swiper-slide {
+    margin-top: 45px;
+    opacity: 0.4;
+
+}
+
+.swiper-slide.swiper-slide-next {
+    opacity: 1;
+}

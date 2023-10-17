@@ -1,0 +1,38 @@
+.DreamKitchen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important  ;
+    flex-direction: column;
+    
+}
+
+.DreamKitchen h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #CC8A3E;
+}
+.DreamKitchen button {
+    padding: 19px 93px;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: none;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #CC8A3E;
+    color: #CC8A3E;
+    border-radius: 40px;
+}
+.DreamKitchen button:hover{
+    background: #CC8A3E;
+    color: white;
+}
+
+.about-us.need-space h6 {
+    border-bottom: 1px solid white;
+    padding-top: 15px;
+}
+
