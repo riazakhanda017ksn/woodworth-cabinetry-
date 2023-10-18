@@ -302,3 +302,17 @@ img.Shaker.Navy.Blue {
     object-fit: cover;
     margin-bottom: 30px;
 }
+
+.need-flex-item___ {
+    display: flex;
+    gap: 3px;
+    width: 100%;
+}
+
+.need-flex-item___ svg {
+    font-size: 48px !important;
+}
+
+.about-us.need-space {
+    margin-top: 20px;
+}

@@ -12,6 +12,7 @@ import WarrantyManagement from "./component/WarrantyManagement/WarrantyManagemen
 import CompanyInfo from "./component/CompanyInfo/CompanyInfo";
 import ScrollTop from "./component/ScrollToTop/ScrollToTop";
 import OurBrand from "./component/OurBrand/OurBrand";
+import NotFound from "./component/NotFound/NotFound";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/warranty" element={<WarrantyManagement />} />
           <Route path="/company-info" element={<CompanyInfo />} />
           <Route path="/our-brand" element={<OurBrand />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

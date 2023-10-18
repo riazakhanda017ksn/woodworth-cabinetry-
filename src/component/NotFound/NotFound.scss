@@ -1,0 +1,17 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.not-found a {
+    display: inline-block;
+    padding: 12px 54px;
+    color: #CC8A3E;
+    border: 1px solid #CC8A3E;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}

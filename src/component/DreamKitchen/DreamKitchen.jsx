@@ -12,7 +12,7 @@ const DreamKitchen = () => {
       data-aos-easing="ease-in-out"
     >
       <h1>BECAME A WOODWORTH DEALER</h1>
-      <Link to="/contact">
+      <Link to="/became-a-dealer">
         <button>Signup now</button>
       </Link>
     </div>

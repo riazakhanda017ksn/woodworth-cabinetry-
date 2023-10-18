@@ -1,6 +1,5 @@
 import React from "react";
 import "./Slider.scss";
-import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Slider = () => {

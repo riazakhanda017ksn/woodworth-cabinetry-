@@ -39,7 +39,7 @@ const BecomeDealer = () => {
          modules={[Autoplay, EffectFade]}
          slidesPerView={3}
          autoplay={{
-           delay: 3000,
+           delay: 1000,
            disableOnInteraction: true,
          }}
         className="mySwiper"

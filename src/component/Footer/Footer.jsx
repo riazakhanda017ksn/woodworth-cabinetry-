@@ -30,7 +30,7 @@ const Footer = () => {
               <button>Continue Reading</button>
             </div>
           </div> */}
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="about-us need-space">
               <h5>PRODUCTS</h5>
               <ul>
@@ -45,22 +45,39 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+          </div> */}
+          <div className="col-lg-4">
+            <div className="footer-about-company">
+           <p><span>40+</span> <span className="font-position-in-bottom">years of quality service in
+            CABINETRY</span> Woodworth Cabinetry is a primary manufacturer and distributor, specializing in making a house, a home. We offer high-quality home décor and solid wood ready-to-assemble (RTA) kitchen and bath cabinetry to dealers across North America.</p>
+</div>              
           </div>
+
           <div className="col-lg-3">
             <div className="about-us need-space">
               <h5>USEFUL LINK</h5>
               <ul>
-                <li>
-                  <Link to="/">LOCATED A DEALER</Link>
+              <li>
+                  <Link to="/about-us">About us</Link>
                 </li>
                 <li>
-                  <Link to="/became-a-dealer">BECAME A DEALER</Link>
+                  <Link to="/contact-us">Contact us</Link>
+                </li>
+
+                <li>
+                  <Link to="/company-info">Company Info</Link>
                 </li>
                 <li>
-                  <Link to="/warranty">WARRANTY</Link>
+                  <Link to="/warranty">Warranty</Link>
                 </li>
                 <li>
-                  <a href={docs} download>
+                  <Link to="/located-a-dealer">Located a Dealer</Link>
+                </li>
+                <li>
+                  <Link to="/located-a-dealer">Became a Dealer</Link>
+                </li>
+                <li>
+                  <a href={docs} download className="font_bold">
                     DOWNLOAD 2023 CATALOGUE
                   </a>
                 </li>
@@ -69,53 +86,60 @@ const Footer = () => {
           </div>
           <div className="col-lg-2">
             <div className="about-us need-space">
-              <h5>CONTACT US</h5>
+              <h5>PRODUCTS</h5>
               <ul>
                 <li>
-                  <Link to="/about-us">ABOUT US</Link>
+                  <Link to="/all-door">All Door Style</Link>
                 </li>
                 <li>
-                  <Link to="/company-info">CONTACT US</Link>
+                  <Link to="/cabinet">Cabinet</Link>
                 </li>
                 <li>
-                  <Link to="/company-info">COMPANY INFO</Link>
+                  <Link to="/vanities">Vanities</Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="about-us need-space">
               <h5>CONTACT INFO</h5>
               <small className="flex">
-                <FiMap /> Address:
+               <div className="need-flex-item___">
+               <FiMap />              
+                 <span className="font__size">
+                 Unit 2, 854 Westport Crescent, Mississauga, ON L5T 1N5
+                 </span>
+               </div>
               </small>{" "}
               <br />
-              <small>
-                Unit 2, 854 Westport Crescent, Mississauga, ON L5T 1N5
-              </small>
+            
               <h6></h6>
               <small className="flex">
-                <FiPhoneCall /> Call Us :
+                <FiPhoneCall /> 
+                <span className="font__size"> (905) 670-8787</span>
               </small>{" "}
               <br />
-              <small>(905) 670-8787</small>
               <h6></h6>
               <small className="flex">
-                <HiOutlineMail /> Send a Email :
+                <HiOutlineMail />
+                <span className="font__size"> info@de-valor.ca</span>
+               
               </small>{" "}
               <br />
-              <small>info@de-valor.ca</small>
+             <div className="text-center new-image-footer">
+              <img src="https://i.ibb.co/hgp4WgL/393910470-2393960074140424-1094279562871830268-n-removebg-preview.png" alt="" />
+             </div>
             </div>
           </div>
         </div>
         <div className="row last-section">
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <p>
               Copyright @ WoodWorth Cabinetry {mainValue}. All Right Reserved
             </p>
-          </div>
-          <div className="col-lg-6">
-            <div className="text-end">
+          </div> */}
+          <div className="col-lg-12">
+            <div className="text-center">
               <a href="">
                 <RiFacebookCircleFill />
               </a>
