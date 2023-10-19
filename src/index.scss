@@ -207,7 +207,21 @@ img.Space.Grey {
   align-items: center;
 }
 
-
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 75px !important;
+  left: -91px !important;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+  z-index: 999999999999;
+}
 .my-container {
   max-width: 1300px;
   margin: 0 auto;

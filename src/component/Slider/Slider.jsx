@@ -87,6 +87,22 @@ const Slider = () => {
                       
                       <div className="slider___text">
                       <h2>
+                         Visualize your kitchen<br /> <span>Design  ideas</span> 
+                         
+                      </h2>
+                         <a href={'https://www.hs-online.com/'} target="_blank">
+                          Home Owner
+                         </a>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="mt-3 content-style animate__animated animate__fadeInLeft" data-aos="fade-left"  data-aos-duration="500"
+                    data-aos-easing="ease-in-out" >
+                      
+                      <div className="slider___text ">
+                      <h2>
                          Start selling <span>Woodworth</span> <br />
                         today
                       </h2>
@@ -97,7 +113,6 @@ const Slider = () => {
 
                     </div>
                   </div>
-                  <div className="col-lg-6"></div>
                 </div>
                 {/* <h2>MAKE WOODWORTH</h2>
                 <h3>PART OF THE FAMILY</h3>
@@ -120,7 +135,23 @@ const Slider = () => {
               <div className="content ">
                 <h1 className="animate__animated animate__fadeInRight">MAKE WOODWORTH <br /> PART OF THE FAMILY </h1>
                 <div className="row">
-                <div className="col-lg-6"></div>
+                  <div className="col-lg-6">
+                    <div className="mt-3 content-style animate__animated animate__fadeInRight" data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out">
+                      
+                      <div className="slider___text">
+                      <h2>
+                         Visualize your kitchen<br /> <span>Design  ideas</span> 
+                         
+                      </h2>
+                         <a href={'https://www.hs-online.com/'} target="_blank">
+                          Home Owner
+                         </a>
+                      </div>
+
+                    </div>
+                  </div>
                   <div className="col-lg-6">
                     <div className="mt-3 content-style animate__animated animate__fadeInLeft" data-aos="fade-left"  data-aos-duration="500"
                     data-aos-easing="ease-in-out" >
@@ -137,7 +168,6 @@ const Slider = () => {
 
                     </div>
                   </div>
-                 
                 </div>
                 {/* <h2>MAKE WOODWORTH</h2>
                 <h3>PART OF THE FAMILY</h3>

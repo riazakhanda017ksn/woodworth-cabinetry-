@@ -12,7 +12,7 @@ const HomeManagement = () => {
     <>
       <Navbar />
       <Slider/>
-      <HomeOwner />
+      {/* <HomeOwner /> */}
       <QualityRedefined />
       {/* <Visualize /> */}
       <Cabinet />
