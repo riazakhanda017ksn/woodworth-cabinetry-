@@ -157,6 +157,9 @@ img.Shaker.Navy.Blue {
   position: relative;
   left: -148px;
 }
+.css-1q2h7u5.Mui-selected {
+  color: #CC8A3E !important;
+}
 img.Shaker.Slim.White {
   position: relative;
   left: -124px;
@@ -226,8 +229,16 @@ img.Modern.Prism {
 .description {
   padding-bottom: 60px;
 }
+.description {
+  padding-left: 35px;
+}
  @media only screen and (max-width: 990px) {
-
+  .description {
+    padding-left: 0px;
+}
+  .doors-details-text {
+    padding-left: 0px;
+}
   .text-center.new-image-footer img {
     width: 100px;
     margin-top: 17px;

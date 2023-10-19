@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="footer-about-company">
            <p><span>40+</span> <span className="font-position-in-bottom">years of quality service in
             CABINETRY</span> Woodworth Cabinetry is a primary manufacturer and distributor, specializing in making a house, a home. We offer high-quality home décor and solid wood ready-to-assemble (RTA) kitchen and bath cabinetry to dealers across North America.</p>
-</div>              
+         </div>              
           </div>
 
           <div className="col-lg-3">
@@ -103,7 +103,7 @@ const Footer = () => {
           <div className="col-lg-3">
             <div className="about-us need-space">
               <h5>CONTACT INFO</h5>
-              <small className="flex">
+              {/* <small className="flex">
                <div className="need-flex-item___">
                <FiMap />              
                  <span className="font__size">
@@ -128,7 +128,15 @@ const Footer = () => {
               <br />
              <div className="text-center new-image-footer">
               <img src="https://i.ibb.co/hgp4WgL/393910470-2393960074140424-1094279562871830268-n-removebg-preview.png" alt="" />
-             </div>
+             </div> */}
+             <br />
+             
+             <Link to={'/contact-us'} className="bg-gray-color">
+              Canada Region
+             </Link> <br /> <br />
+             <Link to={'/contact-us'} className="bg-gray-color">
+              USA Region
+             </Link> 
             </div>
           </div>
         </div>

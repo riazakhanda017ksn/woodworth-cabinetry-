@@ -12,7 +12,8 @@ const Login = () => {
        
         <div className="container">
         <div className="row ">
-           <div className="col-lg-12">
+          <div className="col-lg-2"></div>
+           <div className="col-lg-8">
             <div className="login-form">
               <h3>Wlink System</h3>
               <h2>Log in</h2>
@@ -28,8 +29,7 @@ const Login = () => {
               </form>
             </div>
            </div>
-      
-
+           <div className="col-lg-2"></div>
         </div>
         </div>
       </div>

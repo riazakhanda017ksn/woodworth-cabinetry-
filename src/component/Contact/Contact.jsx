@@ -206,23 +206,105 @@ const Contact = () => {
               </div>
               <button>Send Message</button>
             </form>
+            <div className="company-logo-center text-center py-4">
+        <img src={logo} alt="" />
+      </div>
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="iframe">
-          <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.920004752595!2d-79.65761602476452!3d43.649832652650126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3f341096d185%3A0xec96e210e14e7862!2s854%20Westport%20Crescent%20%232%2C%20Mississauga%2C%20ON%20L5T%201N5%2C%20Canada!5e0!3m2!1sen!2sbd!4v1683471438257!5m2!1sen!2sbd"
-                      allowfullscreen=""
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
+          <div className="contact-more-info">
+
+            <div className="contact__div___">
+              <h3>Canada Region</h3>
+              <span></span>
+              <h4>Woodworth Cabinetry</h4>
+               <div className="strong-text">
+                <strong>Address:</strong>
+                <p> 854 Westport Crescent, Mississauga, ON L5T 1N5</p>
+               </div>
+               <div className="strong-text">
+                <strong>Tel:</strong>
+                <p> (905) 670-8787</p>
+               </div>
+               <div className="strong-text">
+                <strong>Email:</strong>
+                <p> info@de-valor.ca</p>
+               </div>
+               <div className="strong-text">
+                <strong>Website:</strong>
+                <p>www.woodworthcabinetry.com</p>
+               </div>
+            </div>
+
+            <div className="contact__div___">
+              <h3 className='space__top'>US Region</h3>
+              <span></span>
+              <h4>Delux Wood Cabinetry</h4>
+               <div className="strong-text">
+                <strong>Address:</strong>
+                <p>420 frontage Rd, West Haven,CT06516 </p>
+               </div>
+               <div className="strong-text">
+                <strong>Tel:</strong>
+                <p> (407) 655-2687</p>
+               </div>
+               <div className="strong-text">
+                <strong>Email:</strong>
+                <p> info@deluxwoodcabinetry.com</p>
+               </div>
+               <div className="strong-text">
+                <strong>Website:</strong>
+                <p>www.deluxwoodllc.com</p>
+               </div>
+            </div>
+
+            <div className="contact__div___">
+              <h4 className='space__top'>Global Home Co</h4>
+               <div className="strong-text">
+                <strong>Address:</strong>
+                <p>11950 Baltimore Ave,Beltsville,MD 20705 </p>
+               </div>
+               <div className="strong-text">
+                <strong>Tel:</strong>
+                <p> (240) 264-1626</p>
+               </div>
+               <div className="strong-text">
+                <strong>Email:</strong>
+                <p> info@globalhomeco.com</p>
+               </div>
+               <div className="strong-text">
+                <strong>Website:</strong>
+                <p>www.globalhomeco.com</p>
+               </div>
+            </div>
+
+            <div className="contact__div___">
+              <h4 className='space__top'>Premium choice Cabinetry</h4>
+               <div className="strong-text">
+                <strong>Address:</strong>
+                <p>7112 Augusta Rd, Piedmont,SC 29673 </p>
+               </div>
+               <div className="strong-text">
+                <strong>Tel:</strong>
+                <p> (864) 558-8034</p>
+               </div>
+               <div className="strong-text">
+                <strong>Email:</strong>
+                <p> support@premiumchoicecabinetry.com</p>
+               </div>
+               <div className="strong-text">
+                <strong>Website:</strong>
+                <p>www.premiumchoicecabinetry.com</p>
+               </div>
+            </div>
+
           </div>
         </div>
       </div>
 
    
     </div>
-    <div className="row mb-5 pb-2">
+    {/* <div className="row mb-5 pb-2">
       <div className="col-lg-3">
         <div className="web-contact-info">
           <span><ImPhone /></span>
@@ -248,12 +330,8 @@ const Contact = () => {
           <h3>Mon – Fri: 9:00 am – 5:00 pm</h3>
         </div>
       </div>
-    </div>
-    <div className="row mb-5 pb-5">
-      <div className="company-logo-center text-center">
-        <img src={logo} alt="" />
-      </div>
-    </div>
+    </div> */}
+  
     </div>
   );
 };

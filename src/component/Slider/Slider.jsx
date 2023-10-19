@@ -77,11 +77,13 @@ const Slider = () => {
         <div className="carousel-inner">
           <div className="carousel-item active slide-one">
             <div className="container flex-box">
-              <div className="content animate__animated animate__fadeInLeft ">
-                <h1>MAKE WOODWORTH <br /> PART OF THE FAMILY </h1>
+              <div className="content">
+                <h1 className="animate__animated animate__fadeInLeft" >MAKE WOODWORTH <br /> PART OF THE FAMILY </h1>
                 <div className="row">
                   <div className="col-lg-6">
-                    <div className="content-style">
+                    <div className="mt-3 content-style animate__animated animate__fadeInRight" data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out">
                       
                       <div className="slider___text">
                       <h2>
@@ -115,14 +117,15 @@ const Slider = () => {
           </div>
           <div className="carousel-item slide-two">
           <div className="container flex-box">
-              <div className="content animate__animated animate__fadeInLeft ">
-                <h1>MAKE WOODWORTH <br /> PART OF THE FAMILY </h1>
+              <div className="content ">
+                <h1 className="animate__animated animate__fadeInRight">MAKE WOODWORTH <br /> PART OF THE FAMILY </h1>
                 <div className="row">
-                <div className="col-lg-3"></div>
-                  <div className="col-lg-9">
-                    <div className="content-style">
+                <div className="col-lg-6"></div>
+                  <div className="col-lg-6">
+                    <div className="mt-3 content-style animate__animated animate__fadeInLeft" data-aos="fade-left"  data-aos-duration="500"
+                    data-aos-easing="ease-in-out" >
                       
-                      <div className="slider___text">
+                      <div className="slider___text ">
                       <h2>
                          Start selling <span>Woodworth</span> <br />
                         today

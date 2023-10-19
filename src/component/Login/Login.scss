@@ -8,12 +8,12 @@
 }
 .log-clip-path-img{
     background:
-    url(../../img/24546fc5-06de-48c4-90aa-ff213f109a38.png)no-repeat;
-   background-size: cover;
+    url(../../images/Loginpage.jpg)no-repeat;
+   background-size: contain;
    z-index: -1;
-   background-position: left;
+   background-position: right;
    text-align: center;
-   height: 105vh;
+   height: 100vh;
 }
 .login-form {
     display: flex;
@@ -21,7 +21,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 65%;
+    width: 70%;
     height: 100vh;
 }
 .login-form form {
@@ -82,7 +82,7 @@
 }
 
 .login-form {
-    padding: 0px 100px;
+    padding: 0px 0px;
 }
 .login-form a{
     color: #CC8A3E;
@@ -92,4 +92,7 @@
 
 .product-bg {
     text-align: end;
+}
+.doors-details-text {
+    padding-left: 35px;
 }

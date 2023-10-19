@@ -9,6 +9,7 @@
 
   .content-style{
     position: relative;
+    z-index: 10;
   }
    
   .content-style::before {
@@ -22,6 +23,7 @@
     opacity: 0.8;
     z-index: -1;
     border-top-left-radius: 100px;
+    
 }
 
 .content-style {
